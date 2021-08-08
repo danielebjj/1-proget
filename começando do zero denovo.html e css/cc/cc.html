@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cc.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">' rel='stylesheet'>
+
+    
+    <title>Jávai</title>
+</head>
+<body>
+   <div class="retangulo">
+       <div id="conteudo">
+        
+            <h2>Olá, tudo bem?
+         </h2>
+            <p>
+              
+                Me chamo Daniele Menezes. Fundadora do Planner Jávai, desenvolvedora web  
+                 e estudo atualmente na Trybe.<br> Trago esse Planner, para auxiliar você que trabalha na área de tecnologia, produz conteúdo/edição de vídeo. <br>Você conseguirá alinhar: Projetos, compromissos e qualquer tipo de evento, não deixando nada de lado, por não consegiur saber se orgnaizar de forma eficiente. <br>Então, para saber mais sobre o lançamento do planner e também conhecer um pouco mais de você, agora cadatre-se abaixo:
+            </p>
+            <input class="filder" name="name" placeholder="Nome">
+            <input type="submit" value="Enviar">
+            
+        <input class="filder" name="email" placeholder="Email">
+         <input type="submit" value="Enviar">
+
+         <input class="filder" name="Data" placeholder="Data de hoje">
+         <input type="submit" value="Enviar">
+
+         <input class="filder" name="text" placeholder="Aonde nos encontrou?">
+         <input type="submit" value="Enviar">
+        </br>
+        <button onClick="ativar()">></button>
+       </div>
+       <div >
+           <img id="imagem" src="https://i.pinimg.com/564x/7a/d4/9b/7ad49b662993dd58507a86399bf44bdd.jpg"/>
+       </div>
+   </div> 
+</body>
+<script>
+    function ativar(){
+       let imagemChange = document.querySelector("#imagem");
+        imagemChange.src = "	https://i.pinimg.com/564x/bb/8b/4b/bb8b4bfd2c63bc7e17af6d3d246c11ba.jpg"
+        
+    }
+    
+</script>
+</html>

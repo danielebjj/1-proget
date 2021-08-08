@@ -1,0 +1,47 @@
+
+
+body {
+    background-image: url("	https://i.pinimg.com/564x/c9/ee/8b/c9ee8b9d6f740fa08d52ed91bc175ba4.jpg");
+    font-family: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">';
+    font-size: 20px;
+}
+
+h1 {
+    display: flex;
+    width: 20px;
+}
+
+
+.retangulo {
+    background-color: rgb(0, 0, 0);
+    padding: 0.3em;
+    margin: 8.1em;
+    display: flex;
+}
+
+#imagem {border-right-color: black;
+    
+}
+
+#conteudo {
+    background-color: rgb(226, 219, 219);
+    margin: 0.0em;
+    padding: 5em;
+    color: rgb(0, 0, 0);
+}
+
+img {
+     width: 25em;
+    height: 35,0em;
+}
+
+input[type="email"] {
+    border-radius: 0.9em;
+    font-size: 15px;
+}
+
+button {
+    border-bottom-left-radius: 0.5em;
+    font-size: 22px;
+    background-color: rgb(255, 255, 255);
+}
